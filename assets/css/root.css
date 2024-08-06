@@ -83,7 +83,7 @@
     }
 }
 
-@media (max-width:678px) {
+@media (max-width:578px) {
     :root {
         /* ==========================font-size======================== */
         --fs-xsm: 10px;
