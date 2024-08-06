@@ -1,5 +1,6 @@
-@import url(/assets/css/footer.css);
+
 @import url(/assets/css/root.css);
+
 @font-face {
     font-family: arquitecta;
     src: url(../fonts/arquitecta-cufonfonts/ArquitectaBlack.otf);
@@ -23,7 +24,7 @@
 .the-complete-guide {
 
     font-family: Arquitecta;
-    font-size: 24px;
+    font-size: var(--fs-lg);
     font-weight: 500;
     line-height: 31.2px;
     text-align: center;
@@ -33,7 +34,7 @@
 .grab-your-free-pdf {
     color: white;
     font-family: Arquitecta;
-    font-size: 42px;
+    font-size: var(--fs-2xl);
     font-weight: 700;
     line-height: 44.1px;
     text-align: center;
@@ -51,7 +52,7 @@
     height: 50px;
     outline: none;
     font-family: Arquitecta;
-    font-size: 16px;
+    font-size: var(--fs-xsm);
     font-weight: 400;
     line-height: 24.8px;
     text-align: left;
@@ -103,13 +104,18 @@
 
 .list-of-footer {
     font-family: Arquitecta;
-    font-size: var(--fs-lg);
+    font-size: var(--fs-lg) !important;
     font-weight: 500;
     line-height: 31.2px;
     text-align: left;
     color: #E2E4E4 !important;
 }
-
+.hower-orange{
+    transition: all .3s linear;
+}
+.hower-orange:hover{
+    color: var(---orange) !important;
+}
 .gap-24 {
     gap: 24px !important;
 }
@@ -139,8 +145,9 @@
     .button-of-grab-your-free-pdf {
         width: 300px;
     }
-        .footer-image {
-            max-width: 327px;
-        }
+
+    .footer-image {
+        max-width: 327px;
+    }
 
 }

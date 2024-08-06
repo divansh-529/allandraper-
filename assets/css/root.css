@@ -55,7 +55,7 @@
     font-size: var(--fs-4xl);
 }
 
-@media (max-width:992px) {
+@media (max-width:1020px) {
     :root {
         /* ==========================font-size======================== */
         --fs-xsm: 14px;
