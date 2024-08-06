@@ -4,3 +4,89 @@
     src: url(../fonts/arquitecta-cufonfonts/ArquitectaBlack.otf);
 }
 
+.bg-logo {
+    background-image: url(/assets/section-get-your-free-pdf-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.min-height-571 {
+    min-height: 571px;
+}
+
+.the-complete-guide {
+
+    font-family: Arquitecta;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.2px;
+    text-align: center;
+    color: white;
+}
+
+.grab-your-free-pdf {
+    color: white;
+    font-family: Arquitecta;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 44.1px;
+    text-align: center;
+
+}
+
+.max-width-730 {
+    max-width: 730px;
+}
+
+.layout-of-imput-name {
+    padding: 16px;
+    border: 1px solid #686C6B;
+    width: 330px;
+    height: 50px;
+    outline: none;
+    font-family: Arquitecta;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.8px;
+    text-align: left;
+    background: #1D1D1D;
+    color: white;
+}
+
+.button-of-grab-your-free-pdf {
+    width: 329px;
+    height: 48px;
+    background: #F58505;
+    font-family: Arquitecta;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 32px;
+    transition: all .3s linear;
+    outline: none;
+    border: none;
+}
+
+.button-of-grab-your-free-pdf:hover {
+    background-color: white;
+    color: #F58505;
+}
+
+.max-w-1140 {
+    max-width: 1140px;
+}
+
+.footer-bg-black {
+    background: #141414;
+}
+
+.pt-80 {
+    padding-top: 80px;
+}
