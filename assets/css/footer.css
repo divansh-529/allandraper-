@@ -1,11 +1,12 @@
 @import url(/assets/css/footer.css);
+
 @font-face {
     font-family: arquitecta;
     src: url(../fonts/arquitecta-cufonfonts/ArquitectaBlack.otf);
 }
 
 .bg-logo {
-    background-image: url(/assets/section-get-your-free-pdf-bg-img.png);
+    background-image: url(/assets/images/png/section-get-your-free-pdf-bg-img.png);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -89,4 +90,15 @@
 
 .pt-80 {
     padding-top: 80px;
+}
+
+@media (max-width:768px) {
+    .layout-of-imput-name {
+        width: 300px ;
+    }
+
+    .button-of-grab-your-free-pdf {
+        width: 300px;
+    }
+
 }
