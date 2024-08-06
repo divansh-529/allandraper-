@@ -159,9 +159,57 @@
     text-align: center;
 }
 
+.gap-32 {
+    gap: 32px;
+}
+
+.mb-56 {
+    margin-bottom: 56px;
+}
+
 .max-width-476 {
     max-width: 476px;
 }
+
+.card-slick-slider {
+    max-width: 487px;
+    box-shadow: 0px 0px 20px 1px #00000012;
+
+}
+
+.py-80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.heading-of-comment-name {
+    font-family: Arquitecta;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: left;
+    color: #040707;
+}
+
+.desigination-of-comment-work {
+    font-family: Arquitecta;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.2px;
+    text-align: left;
+    color: #686C6B;
+}
+
+.data-of-slider {
+    color: #040707CC;
+    font-family: Arquitecta;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.2px;
+    text-align: left;
+}
+
+
 
 .slick-slider-section-heading {
     font-family: Arquitecta;
@@ -170,7 +218,17 @@
     line-height: 44.1px;
     text-align: center;
     color: var(---black-shade-three);
-    
+
+}
+
+.pb-41 {
+    padding-bottom: 41px;
+}
+
+.side-comment-slick-slider {
+    bottom: -15px;
+    right: -4px;
+    position: absolute;
 }
 
 @media (max-width:768px) {
