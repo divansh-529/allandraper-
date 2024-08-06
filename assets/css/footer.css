@@ -28,11 +28,11 @@
     font-weight: 500;
     line-height: 31.2px;
     text-align: center;
-    color: white;
+    color: var(---white);
 }
 
 .grab-your-free-pdf {
-    color: white;
+    color: var(---white);
     font-family: Arquitecta;
     font-size: var(--fs-2xl);
     font-weight: 700;
@@ -47,7 +47,7 @@
 
 .layout-of-imput-name {
     padding: 16px;
-    border: 1px solid #686C6B;
+    border: 1px solid var(---grey-black);
     width: 330px;
     height: 50px;
     outline: none;
@@ -57,19 +57,19 @@
     line-height: 24.8px;
     text-align: left;
     background: #1D1D1D;
-    color: white;
+    color: var(---white);
 }
 
 .button-of-grab-your-free-pdf {
     width: 329px;
     height: 48px;
-    background: #F58505;
+    background: var(---orange);
     font-family: Arquitecta;
-    font-size: 20px;
+    font-size: var(--fs-md);
     font-weight: 700;
     line-height: 28px;
     text-align: center;
-    color: #FFFFFF;
+    color: var(---white);
     margin-top: 32px;
     transition: all .3s linear;
     outline: none;
@@ -77,8 +77,8 @@
 }
 
 .button-of-grab-your-free-pdf:hover {
-    background-color: white;
-    color: #F58505;
+    background-color: var(---white);
+    color: var(---orange);
 }
 
 .max-w-1140 {
@@ -86,7 +86,7 @@
 }
 
 .footer-bg-black {
-    background: #141414;
+    background: var(---black-footer);
 }
 
 .pt-80 {
@@ -95,11 +95,11 @@
 
 .heading-of-list-of-footer {
     font-family: Arquitecta;
-    font-size: 20px;
+    font-size: var(--fs-md);
     font-weight: 700;
     line-height: 31px;
     text-align: left;
-    color: white;
+    color: var(---white);
 }
 
 .list-of-footer {
@@ -130,7 +130,7 @@
     gap: 0px;
     opacity: 0px;
     border-radius: 50%;
-    background-color: #2B2B2B;
+    background-color: var(---greyish-black);
 }
 
 .footer-image {
@@ -150,4 +150,12 @@
         max-width: 327px;
     }
 
+}
+@media (max-width:568px) {
+    .before-md-d-kit{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
