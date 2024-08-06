@@ -2,3 +2,193 @@
     font-family: arquitecta;
     src: url(../fonts/arquitecta-cufonfonts/ArquitectaBlack.otf);
 }
+
+#back-to-top {
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: none;
+    cursor: pointer;
+    transition: all 300ms linear;
+    z-index: 2;
+
+}
+
+.container {
+    max-width: 1140px !important;
+    width: 100%;
+}
+
+.arquitecta-font-family {
+    font-family: "arquitecta", sans-serif;
+}
+
+section .header .container nav ul li a {
+    text-decoration: none !important;
+    color: white;
+}
+
+section .header .container nav ul li {
+    list-style: none;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.navbar-bnt {
+    width: 148px;
+    height: 51px;
+    border: 1px solid var(---orange);
+    color: var(---orange);
+    background-color: transparent;
+}
+
+
+.navbar-links::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    transition: all 300ms ease-in-out;
+    background-color: var(---orange);
+}
+
+.navbar-links:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.navbar-links:hover {
+    color: var(---orange) !important;
+}
+
+.navbar-bnt {
+    transition: all 300ms linear;
+}
+
+.navbar-bnt:hover {
+    box-shadow: 4px 4px 20px 0px var(---orange);
+    background-color: var(---orange);
+    color: var(--color--white);
+}
+
+.menu-bar {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 300ms;
+
+}
+
+.rotate {
+    transform-origin: top left;
+    transform: rotate(35deg);
+}
+
+.rotate-1 {
+    transform-origin: bottom left;
+    transform: rotate(-35deg);
+}
+
+.show-nav-bar {
+    right: 0 !important;
+}
+
+.white-space-no-wrap {
+    white-space: nowrap;
+}
+
+.bg-about-section {
+    background-color: var(---null);
+}
+
+.min-335 {
+    min-height: 335px;
+}
+
+.text-color-yellow {
+    color: var(---yellow);
+}
+
+.text-light-white {
+    color: var(---footer-text);
+}
+
+.text-cian {
+    color: var(---cian);
+}
+
+.text-orange {
+    color: var(---orange);
+}
+
+.text-grey-black {
+    color: var(---grey-black);
+}
+
+.about-section-line {
+    width: 56px;
+    height: 2px;
+    background-color: var(---yellow);
+}
+
+.bg-orange {
+    background-color: var(---orange);
+}
+
+.bg-cian {
+    background-color: var(---cian);
+}
+
+.video-section-heading-line {
+    width: 64px;
+    height: 2px;
+}
+
+.border-gray {
+    border: 2px solid var(---grey-black);
+}
+
+.play-btn-svg {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.w-100px {
+    width: 100px;
+}
+
+.h-31px {
+    height: 31px;
+}
+
+.border-radius-55 {
+    border-radius: 55px;
+}
+
+
+@media (max-width:992px) {
+    .mobile-view {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: -100%;
+        transition: all 300ms linear;
+        background-color: var(---black);
+    }
+
+}
