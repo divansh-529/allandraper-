@@ -30,6 +30,8 @@ $(".slick-slider-parent").slick({
   slidesToShow: 2,
   slidesToScroll: 1,
   infinite: true,
+  nextArrow:false,
+   prevArrow:false,
   responsive: [
     {
       breakpoint: 1024,

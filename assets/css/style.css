@@ -17,7 +17,9 @@
     transition: all 300ms linear;
     z-index: 2;
 }
-
+.slick-next:before{
+    display: none;
+}
 .arquitecta-font-family {
     font-family: "arquitecta", sans-serif;
 }
