@@ -55,7 +55,7 @@
     font-weight: 400;
     line-height: 24.8px;
     text-align: left;
-    background: #1D1D1D;
+    background: var(---null);
     color: var(---white);
 }
 
@@ -107,7 +107,7 @@
     font-weight: 500;
     line-height: 31.2px;
     text-align: left;
-    color: #E2E4E4 !important;
+    color: var(---footer-text) !important;
 }
 
 .hower-orange {
@@ -203,7 +203,7 @@
 
 .heading-of-comment-name {
     font-family: Arquitecta;
-    font-size: 28px;
+    font-size: var(--fs-xl);
     font-weight: 700;
     line-height: 33.6px;
     text-align: left;
@@ -212,17 +212,17 @@
 
 .desigination-of-comment-work {
     font-family: Arquitecta;
-    font-size: 24px;
+    font-size: var(--fs-lg);
     font-weight: 500;
     line-height: 31.2px;
     text-align: left;
-    color: #686C6B;
+    color: var(---grey-black);
 }
 
 .data-of-slider {
     color: #040707CC;
     font-family: Arquitecta;
-    font-size: 24px;
+    font-size: var(--fs-lg);
     font-weight: 500;
     line-height: 31.2px;
     text-align: left;
@@ -245,7 +245,7 @@
     list-style: none;
     text-align: center;
     position: absolute;
-    left: 0;
+    left: 0;   
 }
 
 
@@ -263,12 +263,12 @@
     height: 8px;
     gap: 0px;
     border-radius: 21px;
-    background-color: #E2E4E4;
+    background-color: var(---footer-text);
     opacity: 0px;
 }
 
 .slick-dots .slick-active {
-    background-color: #F58505;
+    background-color: var(---orange);
     ;
     width: 12px;
     height: 12px;
