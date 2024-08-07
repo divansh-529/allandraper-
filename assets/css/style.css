@@ -96,7 +96,7 @@ section .header .container nav ul li {
 .navbar-bnt:hover {
     box-shadow: 4px 4px 20px 0px var(---orange);
     background-color: var(---orange);
-    color: var(--color--white);
+    color: var(---white) !important;
 }
 
 .menu-bar {
