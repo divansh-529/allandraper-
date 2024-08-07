@@ -1,9 +1,4 @@
-@import url(/assets/css/root.css);
 
-@font-face {
-    font-family: arquitecta;
-    src: url(../fonts/arquitecta-cufonfonts/ArquitectaBlack.otf);
-}
 
 .bg-logo {
     background-image: url(/assets/images/png/section-get-your-free-pdf-bg-img.png);
