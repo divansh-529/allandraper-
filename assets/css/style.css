@@ -1,7 +1,5 @@
-@font-face {
-    font-family: arquitecta;
-    src: url(../fonts/arquitecta-cufonfonts/ArquitectaMedium.otf);
-}
+
+
 
 #back-to-top {
     width: 50px;
@@ -18,9 +16,6 @@
     z-index: 2;
 }
 
-.arquitecta-font-family {
-    font-family: "arquitecta", sans-serif;
-}
 
 section .header .container nav ul li a {
     text-decoration: none !important;

@@ -1,10 +1,4 @@
 @import url(/assets/css/root.css);
-
-@font-face {
-    font-family: arquitecta;
-    src: url(../fonts/arquitecta-cufonfonts/ArquitectaBlack.otf);
-}
-
 .bg-logo {
     background-image: url(/assets/images/png/section-get-your-free-pdf-bg-img.png);
     background-repeat: no-repeat;
@@ -22,7 +16,7 @@
 
 .the-complete-guide {
 
-    font-family: Arquitecta;
+    
     font-size: var(--fs-lg);
     font-weight: 500;
     line-height: 31.2px;
@@ -32,7 +26,7 @@
 
 .grab-your-free-pdf {
     color: var(---white);
-    font-family: Arquitecta;
+    
     font-size: var(--fs-2xl);
     font-weight: 700;
     line-height: 44.1px;
@@ -50,7 +44,7 @@
     width: 330px;
     height: 50px;
     outline: none;
-    font-family: Arquitecta;
+    
     font-size: var(--fs-xsm);
     font-weight: 400;
     line-height: 24.8px;
@@ -63,7 +57,7 @@
     width: 329px;
     height: 48px;
     background: var(---orange);
-    font-family: Arquitecta;
+    
     font-size: var(--fs-md);
     font-weight: 700;
     line-height: 28px;
@@ -93,7 +87,7 @@
 }
 
 .heading-of-list-of-footer {
-    font-family: Arquitecta;
+    
     font-size: var(--fs-md);
     font-weight: 700;
     line-height: 31px;
@@ -102,7 +96,7 @@
 }
 
 .list-of-footer {
-    font-family: Arquitecta;
+    
     font-size: var(--fs-lg) !important;
     font-weight: 500;
     line-height: 31.2px;
@@ -165,7 +159,7 @@
 }
 
 .my-brands {
-    font-family: Arquitecta;
+    
     font-size: var(--fs-2xl);
     font-weight: 700;
     line-height: 44.1px;
@@ -202,7 +196,7 @@
 }
 
 .heading-of-comment-name {
-    font-family: Arquitecta;
+    
     font-size: var(--fs-xl);
     font-weight: 700;
     line-height: 33.6px;
@@ -211,7 +205,7 @@
 }
 
 .desigination-of-comment-work {
-    font-family: Arquitecta;
+    
     font-size: var(--fs-lg);
     font-weight: 500;
     line-height: 31.2px;
@@ -221,7 +215,7 @@
 
 .data-of-slider {
     color: #040707CC;
-    font-family: Arquitecta;
+    
     font-size: var(--fs-lg);
     font-weight: 500;
     line-height: 31.2px;
@@ -276,7 +270,7 @@
 }
 
 .slick-slider-section-heading {
-    font-family: Arquitecta;
+    
     font-size: var(--fs-2xl);
     font-weight: 700;
     line-height: 44.1px;

@@ -1,3 +1,17 @@
+@font-face {
+    font-family: arquitecta;
+    src: url(../fonts/arquitecta-cufonfonts/ArquitectaMedium.otf);
+}
+@font-face {
+    font-family: arquitecta;
+    src: url(../fonts/arquitecta-cufonfonts/ArquitectaBold.otf);
+}
+@font-face {
+    font-family: arquitecta;
+    src: url(../fonts/arquitecta-cufonfonts/ArquitectaLight.otf);
+}
+*{    font-family: "arquitecta", sans-serif;}
+
 :root {
     /* ==========================font-size======================== */
     --fs-xsm: 16px;
