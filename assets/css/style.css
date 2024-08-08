@@ -1,6 +1,6 @@
 @font-face {
     font-family: arquitecta;
-    src: url(../fonts/arquitecta-cufonfonts/ArquitectaLight.otf);
+    src: url(../fonts/arquitecta-cufonfonts/ArquitectaMedium.otf);
 }
 
 #back-to-top {
@@ -35,6 +35,11 @@ section .header .container nav ul li a {
 
 section .header .container nav ul li {
     list-style: none;
+}
+
+.hero-section-person-img {
+    max-width: 543px;
+    max-height: 612px;
 }
 
 .gap-30 {
@@ -93,10 +98,21 @@ section .header .container nav ul li {
     box-shadow: 4px 4px 20px 0px var(---orange);
 }
 
+.fill-btn-hover:hover {
+    box-shadow: 4px 4px 20px 0px var(---orange);
+}
+
 .navbar-bnt:hover {
     box-shadow: 4px 4px 20px 0px var(---orange);
     background-color: var(---orange);
     color: var(---white) !important;
+}
+
+.outline-button-hover:hover {
+    box-shadow: 4px 4px 20px 0px var(---orange);
+    background-color: var(---orange) !important;
+    color: var(---white) !important;
+    border: 0 !important;
 }
 
 .menu-bar {
@@ -129,9 +145,6 @@ section .header .container nav ul li {
     padding-top: 150px !important;
 }
 
-.mb-100 {
-    margin-bottom: 100px;
-}
 
 .shadow-img {
     top: -31.5%;
@@ -290,14 +303,17 @@ section .header .container nav ul li {
         right: 25px;
     }
 }
+
 @media (max-width:568px) {
-    .pt-75{
+    .pt-75 {
         padding-top: 75px !important;
     }
-    .mb-sm-50{
-        margin-bottom: 50px;    
+
+    .mb-sm-50 {
+        margin-bottom: 50px;
     }
-    .pt-sm-150{
+
+    .pt-sm-150 {
         padding-top: 150px;
     }
 }
